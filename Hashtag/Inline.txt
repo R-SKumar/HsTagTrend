@@ -1,0 +1,27 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"dynamodb:PutItem",
+				"dynamodb:UpdateItem",
+				"dynamodb:GetRecords"
+			],
+			"Resource": "*"
+		}
+	]
+}
+
+---------------------------------------------
+
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": "lambda:InvokeFunction",
+			"Resource": "*"
+		}
+	]
+}
